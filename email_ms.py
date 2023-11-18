@@ -16,6 +16,10 @@ def validate_email():
 
     return jsonify(response_data)
 
+@app.route('/', methods=['GET']) 
+def welcome():
+    return "Email Validation Microservice"
+
 def validate_email_function(email):
     import re
     pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
@@ -23,3 +27,5 @@ def validate_email_function(email):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
