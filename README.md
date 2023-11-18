@@ -10,4 +10,5 @@ B) RECEIVING data:
 - Extracts the email field from the received JSON data.
 
 C) UML:
+
 ![MS_UML](https://github.com/villafla/emailvalidation_microservice/assets/132638899/1dfa2f64-c8aa-4b53-9741-6a1598c0b5a5)
