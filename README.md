@@ -1,5 +1,13 @@
-How to use:
-- Make POST requests to the /validate-email endpoint.
-- When a POST request is made to /validate-email, the validate_email function extracts the email address from the request data and validates it using the validate_email_function.
-- Results of the validation are stored in the response_data dictionary.
-- The jsonify(response_data) function is used to convert the response_data dictionary into a JSON response, and this JSON response is returned to the client making the request.
+How to...
+
+A) REQUEST data: 
+- HTTP POST request: Client should send HTTP POST request to the /validate-email endpoint.
+- Client includes JSON data in the request body, JSON data should contain an email field with the email address to be validated.
+- Example call can be found in request.py
+
+B) RECEIVING data:
+- In the validate_email route handler, MS uses the request.get_json() method to receive and parse the JSON data sent by the client.
+- Extracts the email field from the received JSON data.
+
+C) UML:
+![MS_UML](https://github.com/villafla/emailvalidation_microservice/assets/132638899/1dfa2f64-c8aa-4b53-9741-6a1598c0b5a5)
