@@ -11,4 +11,5 @@ B) RECEIVING data:
 
 C) UML:
 
-![MS_UML](https://github.com/villafla/emailvalidation_microservice/assets/132638899/1dfa2f64-c8aa-4b53-9741-6a1598c0b5a5)
+
+<img width="816" alt="Screenshot 2023-11-20 at 12 19 44 AM" src="https://github.com/villafla/emailvalidation_microservice/assets/132638899/e5699aec-73c4-4c0e-b5a5-c0b8123b5d6f">
